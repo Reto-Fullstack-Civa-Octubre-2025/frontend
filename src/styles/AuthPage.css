@@ -1,0 +1,40 @@
+.auth-page {
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+  width: 100vw;
+  background-color: cornsilk;
+}
+
+.sign-in-container, .sign-up-container {
+  background-color: white;
+  padding: 50px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+.auth-header{
+  width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+}
+
+.separator {
+  width: 1px;
+  background-color: gray;
+  height: 100%;
+}
+@media (max-width: 900px) {
+  .separator { visibility: hidden; }
+}
